@@ -1,0 +1,151 @@
+body{
+    background-image: url("../img/sea.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    margin: 30px;
+}
+.wave-cafe{
+    width: 390px;
+    height: 150px;
+    background-color: white;
+    color: rgb(4 123 130);
+    text-align: center;
+    border: 1px solid;
+}
+.name{
+    position: relative;
+    top: 56px;
+    margin: auto;
+    font-size: 37px;
+    font-weight: 600;
+    font-style: italic;
+}
+.drink{
+    margin-top: 20px;
+    width: 190px;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid;
+}
+.drink:hover{
+    background-color: rgb(4 123 130);
+    color: white;
+}
+.a-drink{
+    position: relative;
+    top: 25px;
+}
+.a-drink a{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(4 123 130);
+    text-decoration: none;
+}
+.a-drink a:hover{
+    color: white;
+}
+.about {
+    margin-top: 20px;
+    width: 190px;
+    height: 70px;
+    background-color: white;
+    color: rgb(4 123 130);
+    text-align: center;
+    border: 1px solid;
+}
+
+.a-about {
+    position: relative;
+    top: 25px;
+}
+
+.a-about a {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(4 123 130);
+    text-decoration: none;
+}
+.a-drink {
+    position: relative;
+    top: 25px;
+}
+
+.a-drink a {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(4 123 130);
+    text-decoration: none;
+}
+.about:hover{
+    background-color: rgb(4 123 130);
+}
+
+.a-about a:hover {
+    color: white;
+}
+.left{
+    position: absolute;
+    left: 238px;
+    top: 183px;
+}
+.second_phase{
+    position: absolute;
+    top: 25px;
+    left: 40%;
+    background-color: transparent;
+    width: 800px;
+    height: auto;
+}
+.heading_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0002048e;
+    padding: 20px;
+   
+}
+
+.heading_menu a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.heading_menu a:hover {
+    color: rgb(4 123 130);
+}
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.item img {
+    margin-right: 10px;
+    
+}
+
+.box {
+    flex: 1;
+    padding: 10px;
+    background-color: #0002048e;
+    color: white;
+    border: 1px solid black;
+}
+.menu-name{
+    font-size: larger;
+    font-weight: bold;
+}
+.menu-name span{
+    color: rgb(25 242 255);
+    position: absolute;
+    right: 70px;
+}
+.menu-desc{
+    margin-top: 20px;
+}
